@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
-using TechStackApp.Domain;
+using TechStack.Domain;
 
 namespace TechStack.Data
 {
    public class TechStackContext: DbContext
     {
-        public DbSet<TechStackApp.Domain.TechStack> TechStacks { get; set; } //TechStack clashes with solution name
+        public DbSet<TechStack.Domain.TechStack> TechStacks { get; set; } 
         public DbSet<Technology> Technologies { get; set; }
     }
 }
