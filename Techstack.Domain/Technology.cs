@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TechStack.Domain
+namespace TechStackApp.Domain
 {
    public class Technology
     {
